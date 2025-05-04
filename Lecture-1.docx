@@ -1,1 +1,13 @@
-Hello
+Servlet:-
+It is a simple java program that runs on server and capable of handling request and generate dynamic response.
+
+                    Request                            JDBC Technology
+Client:           ------------------->  Server:    <----------------------> DB
+Chrome Firefox                   [Java Program/Servlet]
+www.onlyjavatech.com                       |
+    ^    Response as Dynamic HTML          |
+    | ______________________________________
+            (output: Web Page)
+
+            This is Client Server Architecture
+            
