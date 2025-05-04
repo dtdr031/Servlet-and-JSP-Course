@@ -1,0 +1,14 @@
+Creating Servlet using HttpServlet:
+
+Used to create http protocol specific servlet.
+Package: javax.servlet.http
+
+[Servlet]
+    ^
+    |
+    |
+[GenericServlet]
+    ^
+    |
+    |
+[Http Servlet]

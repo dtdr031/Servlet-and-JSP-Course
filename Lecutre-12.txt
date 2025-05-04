@@ -1,0 +1,16 @@
+Welcome File List:-
+    For Changing the Home Page of the website.
+
+    <webapp>
+        <welcome-file-list>
+            <welcome-file>home.html</welcome-file>
+            <welcome-file>default.html</welcome-file>
+        </welcome-file-list>
+    </webapp>
+
+Request Dispatcher:
+It is responsible for dispatching the request to another resource, it may be html,servlet or jsp.
+
+Has 2 methods: 
+follow()
+include()

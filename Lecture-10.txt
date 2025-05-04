@@ -1,0 +1,14 @@
+Lifecycle of Servlet: -
+
+init()  - Load and Instantiate; calls this method for servlet Initialization.
+  |
+  |
+  V 
+service() - This method gets called for processing the request. Most important method used for processing Business Logic.
+  |
+  |
+  V 
+destory() - For releasing the resources.
+
+
+**getServletInfo() and getServletConfig() are non Lifecycle Methods.

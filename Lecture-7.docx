@@ -5,11 +5,15 @@ Interface: Servlet - It has all properties which a Servlet has
 
 5 Methods in this interface:-
   **1. public abstract void init (javax.servlet.ServletConfig);  ---- For Servlet Initialization
+
     2. public ServletConfig getServletConfig();
+
   **3. public void 
                 service(javax.servlet.ServletRequest,
                         javax.servlet.ServletResponse)   ---- For Service Processing Logic
+
     4. public abstract java.lang.String getServletInfo();
+    
   **5. public abstract void destory(); ---- For Releasing Resources
 
   1,3 and 5: Lifecycle Methods   
@@ -20,3 +24,5 @@ class MyServlet implements Servlet {
 
     Override all Methods
 }
+
+mapping:- web.xml - Called as Deployment Descriptor

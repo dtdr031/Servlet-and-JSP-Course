@@ -1,0 +1,23 @@
+Creating Servlet Using GenericServlet:-
+
+Servlet: [5 Methods]
+        |
+        |
+        |
+        V 
+    implemented By
+   GenericServlet: [4 Methods have body
+                    except abstract service]
+
+
+User Defined Class:
+
+It will extend GenericServlet Class. 
+Only to override abstract Service() method.
+No Need to ovrride other 4 Methods.
+
+public void service()
+{
+
+
+}
